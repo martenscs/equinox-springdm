@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Order Service Client
+Bundle-SymbolicName: net.martenscs.orderclient
+Bundle-Version: 1.0.0.qualifier
+Import-Package: net.martenscs.order,
+ org.aopalliance.aop,
+ org.osgi.framework,
+ org.springframework.aop,
+ org.springframework.aop.framework,
+ org.springframework.beans.factory.xml,
+ org.springframework.beans.propertyeditors,
+ org.springframework.osgi.service.exporter.support,
+ org.springframework.osgi.service.importer,
+ org.springframework.osgi.service.importer.support,
+ org.xml.sax
+

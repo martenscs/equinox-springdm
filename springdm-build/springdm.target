@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+
+<target name="springdm" sequenceNumber="2">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.equinox.osgi.runtime.feature.group" version="0.0.1.201403311556"/>
+<unit id="org.equinox.osgi.runtime.source.feature.group" version="0.0.1.201403311556"/>
+<unit id="org.eclipse.osgi.web.feature.group" version="1.0.0.201403311556"/>
+<unit id="org.eclipse.osgi.web.source.feature.group" version="1.0.0.201403311556"/>
+<repository location="http://p2.martenscs.net/equinox-runtime"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="commons.feature.group" version="2.3.4"/>
+<unit id="commons.source.feature.group" version="2.3.4"/>
+<unit id="config.feature.group" version="2.3.4"/>
+<unit id="config.source.feature.group" version="2.3.4"/>
+<unit id="eventadmin.feature.group" version="2.3.4"/>
+<unit id="eventadmin.source.feature.group" version="2.3.4"/>
+<unit id="http.feature.group" version="2.3.4"/>
+<unit id="http.source.feature.group" version="2.3.4"/>
+<unit id="http-whiteboard.feature.group" version="2.3.4"/>
+<unit id="http-whiteboard.source.feature.group" version="2.3.4"/>
+<unit id="jasypt-encryption.feature.group" version="2.3.4"/>
+<unit id="jasypt-encryption.source.feature.group" version="2.3.4"/>
+<unit id="jetty.feature.group" version="7.6.9.v20130131"/>
+<unit id="jetty.source.feature.group" version="7.6.9.v20130131"/>
+<unit id="kar.feature.group" version="2.3.4"/>
+<unit id="kar.source.feature.group" version="2.3.4"/>
+<unit id="karaf-framework.feature.group" version="2.3.4"/>
+<unit id="karaf-framework.source.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-aries.feature.group" version="1.4.0"/>
+<unit id="karaf-framework-aries.source.feature.group" version="1.4.0"/>
+<unit id="karaf-framework-features.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-features.source.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-felix-configadmin.feature.group" version="1.6.0"/>
+<unit id="karaf-framework-felix-configadmin.source.feature.group" version="1.6.0"/>
+<unit id="karaf-framework-jaas.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-jaas.source.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-jmx.feature.group" version="1.1.1"/>
+<unit id="karaf-framework-jmx.source.feature.group" version="1.1.1"/>
+<unit id="karaf-framework-management-server.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-management-server.source.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-pax.feature.group" version="1.7.2"/>
+<unit id="karaf-framework-pax.source.feature.group" version="1.7.2"/>
+<unit id="karaf-framework-shell.feature.group" version="2.3.4"/>
+<unit id="karaf-framework-shell.source.feature.group" version="2.3.4"/>
+<unit id="management.feature.group" version="2.3.4"/>
+<unit id="management.source.feature.group" version="2.3.4"/>
+<unit id="obr.feature.group" version="2.3.4"/>
+<unit id="obr.source.feature.group" version="2.3.4"/>
+<unit id="scr.feature.group" version="2.3.4"/>
+<unit id="scr.source.feature.group" version="2.3.4"/>
+<unit id="service-wrapper.feature.group" version="2.3.4"/>
+<unit id="spring.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-aspects.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-aspects.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-dm.feature.group" version="1.2.1"/>
+<unit id="spring-dm.source.feature.group" version="1.2.1"/>
+<unit id="spring-dm-web.feature.group" version="1.2.1"/>
+<unit id="spring-dm-web.source.feature.group" version="1.2.1"/>
+<unit id="spring-instrument.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-instrument.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-jdbc.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-jdbc.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-jms.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-jms.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-orm.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-orm.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-oxm.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-oxm.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-security.feature.group" version="3.1.4.RELEASE"/>
+<unit id="spring-security.source.feature.group" version="3.1.4.RELEASE"/>
+<unit id="spring-struts.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-struts.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-test.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-test.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-tx.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-tx.source.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-web.feature.group" version="3.2.4.RELEASE"/>
+<unit id="spring-web.source.feature.group" version="3.2.4.RELEASE"/>
+<repository location="http://p2.martenscs.net/karaf/standard/2.3.4"/>
+</location>
+</locations>
+<includeBundles>
+<plugin id="org.springframework.osgi.io"/>
+<plugin id="org.eclipse.equinox.http.servlet"/>
+<plugin id="org.apache.commons.fileupload"/>
+<plugin id="org.apache.aries.blueprint.core"/>
+<plugin id="org.eclipse.core.filesystem.source"/>
+<plugin id="org.slf4j.jcl"/>
+<plugin id="org.eclipse.jetty.plus.source" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.jetty.server.source" version="8.1.8.v20121106"/>
+<plugin id="org.springframework.context"/>
+<plugin id="org.eclipse.equinox.http.registry.source"/>
+<plugin id="org.eclipse.jetty.jmx.source" version="8.1.8.v20121106"/>
+<plugin id="org.springframework.aop"/>
+<plugin id="org.springframework.instrument"/>
+<plugin id="org.apache.felix.fileinstall.source"/>
+<plugin id="org.eclipse.equinox.common"/>
+<plugin id="commons-logging-api"/>
+<plugin id="org.eclipse.jetty.nosql"/>
+<plugin id="org.springframework.osgi.core.source"/>
+<plugin id="org.eclipse.core.filesystem.win32.x86_64"/>
+<plugin id="org.eclipse.jetty.ajp.source"/>
+<plugin id="org.springframework.beans"/>
+<plugin id="org.apache.servicemix.bundles.aspectj.source"/>
+<plugin id="org.apache.aries.proxy.api"/>
+<plugin id="org.springframework.expression.source"/>
+<plugin id="org.apache.felix.bundlerepository.source"/>
+<plugin id="org.eclipse.jetty.osgi.httpservice.source"/>
+<plugin id="org.eclipse.jetty.security.source" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.jetty.nested.source"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jta_1.1_spec.source"/>
+<plugin id="org.apache.aries.blueprint.core.source"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jms_1.1_spec"/>
+<plugin id="org.eclipse.jetty.osgi.httpservice"/>
+<plugin id="org.eclipse.osgi"/>
+<plugin id="org.apache.felix.gogo.shell.source"/>
+<plugin id="org.eclipse.core.jobs"/>
+<plugin id="org.eclipse.equinox.region.source"/>
+<plugin id="ch.qos.logback.core"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jms_1.1_spec.source"/>
+<plugin id="org.eclipse.jetty.rewrite"/>
+<plugin id="org.eclipse.equinox.console.source"/>
+<plugin id="org.eclipse.core.contenttype.source"/>
+<plugin id="org.apache.felix.fileinstall"/>
+<plugin id="org.apache.felix.gogo.runtime.source"/>
+<plugin id="org.slf4j.jul"/>
+<plugin id="org.apache.commons.lang3.source"/>
+<plugin id="org.apache.aries.proxy.impl"/>
+<plugin id="org.apache.felix.configadmin.source"/>
+<plugin id="org.eclipse.equinox.coordinator.source"/>
+<plugin id="javax.mail"/>
+<plugin id="org.apache.servicemix.bundles.cglib"/>
+<plugin id="org.springframework.web"/>
+<plugin id="org.junit"/>
+<plugin id="ch.qos.logback.slf4j"/>
+<plugin id="org.apache.commons.dbcp"/>
+<plugin id="org.eclipse.osgi.services.source"/>
+<plugin id="org.apache.felix.metatype"/>
+<plugin id="org.eclipse.jetty.security" version="8.1.8.v20121106"/>
+<plugin id="org.apache.commons.beanutils.source"/>
+<plugin id="org.eclipse.equinox.ds.source"/>
+<plugin id="javax.servlet"/>
+<plugin id="org.apache.felix.eventadmin"/>
+<plugin id="org.apache.felix.scr"/>
+<plugin id="org.eclipse.jetty.xml" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.jetty.util" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.jetty.servlets" version="8.1.8.v20121106"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jta_1.1_spec"/>
+<plugin id="jetty.home.bundle"/>
+<plugin id="org.eclipse.jetty.deploy"/>
+<plugin id="ch.qos.logback.classic"/>
+<plugin id="org.ops4j.pax.logging.pax-logging-service"/>
+<plugin id="org.ops4j.pax.logging.pax-logging-service.source"/>
+<plugin id="org.apache.aries.proxy.impl.source"/>
+<plugin id="org.springframework.osgi.extender"/>
+<plugin id="org.objectweb.asm"/>
+<plugin id="org.eclipse.jetty.nested"/>
+<plugin id="org.apache.servicemix.bundles.struts.source"/>
+<plugin id="org.eclipse.core.resources"/>
+<plugin id="org.eclipse.jetty.deploy.source"/>
+<plugin id="org.apache.aries.proxy.api.source"/>
+<plugin id="org.apache.felix.gogo.shell"/>
+<plugin id="org.apache.aries.blueprint.api"/>
+<plugin id="org.apache.commons.io.source"/>
+<plugin id="org.apache.aries.blueprint.cm.source"/>
+<plugin id="org.apache.commons.dbcp.source"/>
+<plugin id="org.apache.commons.cli.source"/>
+<plugin id="org.eclipse.core.commands.source"/>
+<plugin id="org.eclipse.core.filesystem"/>
+<plugin id="org.eclipse.equinox.registry"/>
+<plugin id="org.eclipse.equinox.ds"/>
+<plugin id="org.eclipse.jetty.ajp"/>
+<plugin id="org.ops4j.pax.logging.pax-logging-api"/>
+<plugin id="org.apache.felix.gogo.runtime"/>
+<plugin id="org.apache.commons.pool"/>
+<plugin id="org.eclipse.jetty.server" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.jetty.client" version="8.1.8.v20121106"/>
+<plugin id="org.springframework.osgi.core"/>
+<plugin id="org.apache.commons.lang.source"/>
+<plugin id="org.apache.commons.discovery"/>
+<plugin id="org.springframework.oxm.source"/>
+<plugin id="org.springframework.oxm"/>
+<plugin id="org.eclipse.jetty.client.source" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.jetty.monitor"/>
+<plugin id="org.eclipse.jetty.plus" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.equinox.http.jetty.source"/>
+<plugin id="org.eclipse.equinox.http.servlet.source"/>
+<plugin id="org.apache.felix.bundlerepository"/>
+<plugin id="org.eclipse.equinox.app"/>
+<plugin id="org.eclipse.jetty.websocket" version="8.1.8.v20121106"/>
+<plugin id="org.apache.felix.configadmin"/>
+<plugin id="org.springframework.osgi.web.source"/>
+<plugin id="org.springframework.core"/>
+<plugin id="org.eclipse.jetty.rewrite.source"/>
+<plugin id="org.springframework.osgi.extensions.annotations"/>
+<plugin id="org.eclipse.jetty.osgi.boot.jsp"/>
+<plugin id="javax.inject"/>
+<plugin id="org.apache.felix.gogo.command"/>
+<plugin id="org.eclipse.osgi.source"/>
+<plugin id="org.apache.commons.io"/>
+<plugin id="org.apache.felix.metatype.source"/>
+<plugin id="org.eclipse.core.contenttype"/>
+<plugin id="org.apache.aries.util.source"/>
+<plugin id="org.eclipse.jetty.webapp" version="8.1.8.v20121106"/>
+<plugin id="org.slf4j.api"/>
+<plugin id="org.eclipse.jetty.util.source" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.equinox.http.jetty"/>
+<plugin id="org.apache.servicemix.bundles.cglib.source"/>
+<plugin id="org.eclipse.core.expressions"/>
+<plugin id="org.junit4"/>
+<plugin id="org.springframework.beans.source"/>
+<plugin id="org.apache.servicemix.specs.activation-api-1.1.source"/>
+<plugin id="org.springframework.osgi.web"/>
+<plugin id="org.eclipse.jetty.jndi" version="8.1.8.v20121106"/>
+<plugin id="org.apache.geronimo.specs.geronimo-servlet_2.5_spec"/>
+<plugin id="org.hamcrest.core"/>
+<plugin id="org.apache.commons.collections"/>
+<plugin id="org.eclipse.equinox.preferences.source"/>
+<plugin id="javax.mail.source"/>
+<plugin id="org.springframework.osgi.io.source"/>
+<plugin id="org.apache.commons.discovery.source"/>
+<plugin id="org.eclipse.jetty.servlets.source" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.equinox.preferences"/>
+<plugin id="org.eclipse.jetty.osgi.boot"/>
+<plugin id="org.eclipse.jetty.continuation.source" version="8.1.8.v20121106"/>
+<plugin id="org.apache.commons.codec"/>
+<plugin id="org.eclipse.core.runtime"/>
+<plugin id="org.springframework.context.support"/>
+<plugin id="org.apache.aries.blueprint.cm"/>
+<plugin id="org.eclipse.core.variables.source"/>
+<plugin id="org.slf4j.log4j"/>
+<plugin id="org.eclipse.equinox.app.source"/>
+<plugin id="org.springframework.aspects"/>
+<plugin id="org.eclipse.jetty.continuation" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.equinox.registry.source"/>
+<plugin id="org.springframework.web.servlet.source"/>
+<plugin id="org.eclipse.equinox.coordinator"/>
+<plugin id="org.apache.felix.eventadmin.source"/>
+<plugin id="org.eclipse.jetty.osgi.boot.warurl"/>
+<plugin id="org.springframework.web.servlet"/>
+<plugin id="javax.transaction"/>
+<plugin id="org.apache.commons.fileupload.source"/>
+<plugin id="org.eclipse.jetty.jmx" version="8.1.8.v20121106"/>
+<plugin id="org.apache.commons.lang"/>
+<plugin id="org.eclipse.jetty.http" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.jetty.osgi.boot.warurl.source"/>
+<plugin id="org.eclipse.equinox.util.source"/>
+<plugin id="org.springframework.expression"/>
+<plugin id="org.eclipse.jetty.osgi.boot.jsp.source"/>
+<plugin id="org.springframework.context.support.source"/>
+<plugin id="com.google.guava"/>
+<plugin id="org.eclipse.jetty.nosql.source"/>
+<plugin id="org.apache.felix.gogo.command.source"/>
+<plugin id="org.eclipse.core.jobs.source"/>
+<plugin id="org.eclipse.jetty.osgi.boot.source"/>
+<plugin id="org.springframework.aop.source"/>
+<plugin id="org.apache.servicemix.bundles.aopalliance.source"/>
+<plugin id="org.apache.aries.util"/>
+<plugin id="org.springframework.transaction.source"/>
+<plugin id="org.apache.commons.collections.source"/>
+<plugin id="org.apache.commons.codec.source"/>
+<plugin id="org.springframework.instrument.source"/>
+<plugin id="org.eclipse.osgi.services"/>
+<plugin id="org.eclipse.equinox.util"/>
+<plugin id="org.eclipse.jetty.policy"/>
+<plugin id="org.eclipse.equinox.http.registry"/>
+<plugin id="org.eclipse.jetty.io" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.equinox.region"/>
+<plugin id="org.apache.geronimo.specs.geronimo-servlet_2.5_spec.source"/>
+<plugin id="org.eclipse.equinox.console"/>
+<plugin id="org.apache.servicemix.bundles.aopalliance"/>
+<plugin id="org.springframework.core.source"/>
+<plugin id="org.eclipse.jetty.websocket.source" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.jetty.servlet.source" version="8.1.8.v20121106"/>
+<plugin id="org.apache.commons.pool.source"/>
+<plugin id="org.apache.felix.scr.source"/>
+<plugin id="org.eclipse.jetty.io.source" version="8.1.8.v20121106"/>
+<plugin id="org.apache.aries.blueprint.api.source"/>
+<plugin id="org.apache.commons.beanutils"/>
+<plugin id="org.springframework.aspects.source"/>
+<plugin id="org.apache.servicemix.bundles.struts"/>
+<plugin id="org.apache.commons.cli"/>
+<plugin id="org.apache.commons.lang3"/>
+<plugin id="org.eclipse.jetty.servlet" version="8.1.8.v20121106"/>
+<plugin id="org.springframework.context.source"/>
+<plugin id="org.eclipse.equinox.common.source"/>
+<plugin id="org.springframework.web.source"/>
+<plugin id="org.apache.servicemix.bundles.aspectj"/>
+<plugin id="org.eclipse.core.runtime.compatibility.registry"/>
+<plugin id="org.springframework.osgi.extensions.annotations.source"/>
+<plugin id="org.eclipse.jetty.xml.source" version="8.1.8.v20121106"/>
+<plugin id="org.eclipse.jetty.jndi.source" version="8.1.8.v20121106"/>
+<plugin id="org.apache.servicemix.specs.activation-api-1.1"/>
+<plugin id="com.ibm.icu"/>
+<plugin id="org.eclipse.core.commands"/>
+<plugin id="org.eclipse.jetty.webapp.source" version="8.1.8.v20121106"/>
+<plugin id="org.springframework.transaction"/>
+<plugin id="org.eclipse.equinox.cm"/>
+<plugin id="com.google.gson"/>
+<plugin id="org.eclipse.core.expressions.source"/>
+<plugin id="org.eclipse.jetty.http.source" version="8.1.8.v20121106"/>
+<plugin id="org.springframework.osgi.extender.source"/>
+<plugin id="org.eclipse.jetty.monitor.source"/>
+</includeBundles>
+</target>

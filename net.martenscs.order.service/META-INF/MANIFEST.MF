@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Order Service
+Bundle-SymbolicName: net.martenscs.order.service
+Bundle-Version: 1.0.0.qualifier
+Import-Package: org.aopalliance.aop,
+ org.osgi.framework,
+ org.springframework.aop,
+ org.springframework.aop.framework,
+ org.springframework.beans.factory.xml,
+ org.springframework.beans.propertyeditors,
+ org.springframework.osgi.service.exporter,
+ org.springframework.osgi.service.exporter.support,
+ org.springframework.osgi.service.importer.support,
+ org.xml.sax
+Export-Package: net.martenscs.order
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
